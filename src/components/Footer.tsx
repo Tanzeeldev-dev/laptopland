@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-ink text-white/80 mt-12 sm:mt-20">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:py-12 grid gap-8 sm:gap-10 md:grid-cols-4">
         <div>
-          <Logo variant="light" />
+          <Logo variant="light" size="footer" />
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
             {SITE.tagline} Quality imported & refurbished Dell, HP and Lenovo business laptops, delivered across Pakistan.
           </p>
