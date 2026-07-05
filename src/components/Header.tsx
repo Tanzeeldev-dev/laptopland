@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 bg-ink text-white shadow-sm">
       <div className="mx-auto max-w-7xl px-4">
-        <div className="flex h-16 items-center justify-between gap-3">
+        <div className="flex h-[4.75rem] sm:h-20 items-center justify-between gap-3">
           <Link to="/" className="shrink-0" onClick={() => setOpen(false)}>
             <Logo variant="light" />
           </Link>
